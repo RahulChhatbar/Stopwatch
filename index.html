@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel = "icon" href ="https://i.pinimg.com/originals/b2/bc/14/b2bc144b100ba32065abd68ae47ea79c.png" 
+        type = "image/x-icon">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="entire">
+        <div class="next" id="watch">00:00:00:00</div>
+        <div id="main"><br>
+        <div id="col1">
+            <li id="li_start">
+                <button onclick="starttime()">Start</button>
+            </li>
+            <li id="li_restart">
+                <button onclick="res()">Restart</button>
+            </li>
+        </div>
+        <div id="col2">
+            <li id="li_pause">
+                <button onclick="pause()">Pause</button>
+            </li>
+            <li id="li_lap">
+                <button onclick="lap()">Lap</button>
+            </li>
+        </div>
+        <div id="col3">
+            <li id="li_reset">
+                <button onclick="reset()">Reset</button>
+            </li>
+            <li id="li_lapcontent">
+                <button id="h" onclick="reslap()">Reset Laps</button>
+            </li>
+        </div>
+        <br>
+        </div>
+    <table id="abc">
+        <td id="all">
+    <tr class="a"></tr>
+    <td id="lapcontent">Lap Time</td>
+    </td>
+    </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

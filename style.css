@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    touch-action: manipulation;
+    text-align: center;
+    background-color: black;
+    color: rgb(226, 43, 43);
+}
+#main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+div li {
+    list-style-type: none;
+}
+li {
+    padding: 5px;
+    background-color: red;
+}
+div td li {
+    text-align: center;
+    background-color: chartreuse;
+    list-style-type: decimal;
+    color: rgb(0, 119, 255);
+}
+.a {
+    list-style-type: decimal;
+    border: 2px solid brown;
+}
+#watch {
+    text-align: center;
+    display: flex;
+    justify-content: center;    
+    font-size: 50px;
+    background-color: aqua;
+}
+button {
+    height: 35px;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 15;
+    background-color: rgb(21, 255, 0);
+}
+#abc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#col1 {
+    float: left;
+}
+#col2 {
+    float: left;
+}
+#lapcontent {
+    font-size: 35px;
+    border: 1px solid rgb(255, 0, 0);
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    clear: all;
+}
+td {
+    color: rgb(0, 183, 255);
+}
+li {
+    padding: 10px;
+    overflow: auto;
+}
+table {    
+    overflow: auto;
+    height: 250px;
+    visibility: hidden;
+}
+@media (min-width : 1200px) {
+    #watch {
+        font-size: 240px;
+    }
+    #main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        float: left;
+    }
+    #col1,#col2,#col3 {
+        width: 100%;
+        padding: 50px red;
+    }
+    button {
+        font-size: 70px;
+        width: 250px;
+        height: 250px;
+        color: rgb(0, 255, 34);
+        background-color: purple;
+    }
+    table {
+        height: 550px;
+        padding: 25px;
+    }
+    #lapcontent {
+        font-size: 60px;
+        border: 15px solid rgb(255, 0, 0);
+        width: 750px;
+        height: 50px;
+        clear: all;
+    }
+    #entire {
+        width: 100%;
+    }
+    li {
+        background-color: rgb(238, 255, 0);
+    }
+}
